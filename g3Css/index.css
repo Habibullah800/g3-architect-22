@@ -1,0 +1,57 @@
+body {
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.align_center {
+    text-align: center;
+}
+
+.title {
+    font-size: 45px;
+    font-weight: 700px;
+    margin-bottom: 20px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: 400px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+
+.margin_y {
+    margin-top: 55px;
+    margin-bottom: 30%PX;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.SponsorImg {
+    width: 166px;
+    height: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media only screen and (min-width: 577px) and (max-width: 990px) {
+    .flex {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
